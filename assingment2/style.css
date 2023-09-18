@@ -1,0 +1,119 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: system-ui;
+}
+
+.navbar
+{
+    display:  flex;
+    justify-content: space-between;
+    width: 75vw;
+    height: 10vh;
+    margin-top: 4%;
+    /* position: fixed; */
+   
+    
+}
+.links
+{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    
+}
+.links h4
+{
+    font-family: monospace;
+    color: blueviolet;
+    font-size: 23px;
+}
+
+span{
+    color: black;
+}
+
+.links a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.btn
+{
+    height: 20px;
+    background-color: rgb(169, 89, 245);
+    border: none;
+    width: 150px;
+    padding: 5px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.image
+{
+    background: url(./images/banners.jpg);
+    width: 75vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    /* background-repeat: no-repeat; */
+}
+
+.image h3
+{
+    font-size: 40px;
+    margin-bottom: 13px;
+}
+
+.buttomcontainer
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+
+     margin-top: 40px;
+
+     gap: 6rem;
+}
+
+.food
+{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.receipes li
+{
+   list-style: none;
+   margin-top: 7px;
+} 
+
+img
+{
+    width: 269px;
+    height: 140px;
+    /* flex-shrink: 2; */
+}
+ 
